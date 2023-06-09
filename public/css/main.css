@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #60FF9F;  */
+    background-color: #EDEEFF;
+    font-family: "Nanum Gothic Coding";
+    height: 95vh;
+}
+
+main {
+    display: flex;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.user_logo {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.user_logo > img {
+    height: 30px;
+}
+
+.service_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.service_name > p {
+    font-size: 30px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.service_name > img {
+    height: 35px;
+}
+
+.service_logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.service_logo > img {
+    height: 400px;
+}
+
+.login_btn,  .regist_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9EA2D8;
+    border-color: #282c34;
+    border-radius: 15px;
+    border-style: solid;
+    box-shadow: 1px 3px 3px #000;
+    color: #000;
+    font-size: 30px;
+    height: 60px;
+    width: 250px;
+    margin: 0 10px;
+}
+
+.login_btn > button, .regist_btn > button {
+    border-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Jua";
+    background-color: #9EA2D8;
+}
+
+.login_btn > button > a, .regist_btn > button > a {
+    color: black;
+}
+
+.btns{
+    display: flex;
+    margin-bottom: 40px;
+}
